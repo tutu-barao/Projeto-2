@@ -22,7 +22,7 @@ def calcular_desconto(valor_compra):
 # Dados de Entrada:
 valor_compra = float(input("Digite o Valor da Compra: R$ "))
 
-## DICA GPT SOBRE A FUNÇÃO calcular_desconto():
+## DICA IA SOBRE A FUNÇÃO calcular_desconto():
 ## Cada vez que você escreve calcular_desconto(Valor_compra), o Python roda a função inteira de novo. Isso é desperdício e pode causar bugs se a função tiver efeitos colaterais.
 # Solução: Guarde o resultado em uma variável e use essa variável depois.
 
