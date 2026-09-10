@@ -2,11 +2,20 @@
 #Suellen Campos
 
 # ===================== FUNÇÕES (no topo!) =====================
-# DICA 2 IA:
+# DICA IA:
 # Pelas suas diretrizes, funções devem ficar no topo do script, antes de qualquer variável ou execução. 
 # No seu código, a variável Valor_compra aparece antes da função.
 
+# 1 - Aplicando as regras dos descontos progressivos:
+
 def calcular_desconto(valor_compra):
+        """
+    Retorna a taxa de desconto conforme o valor da compra.
+    Regras de negócio:
+      - Até R$ 200,00: 5% de desconto
+      - De R$ 200,01 a R$ 500,00: 10% de desconto
+      - Acima de R$ 500,00: 15% de desconto
+    """
     """Retorna a taxa de desconto conforme o valor da compra."""
     if valor_compra < 200:
         desconto = 0.05
